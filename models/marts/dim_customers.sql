@@ -1,5 +1,5 @@
 SELECT
     CUSTOMER_ID,
     CUSTOMER_NAME,
-    CITY
+    CITY AS CUSTOMER_CITY
 FROM {{ ref('stg_customers') }}
